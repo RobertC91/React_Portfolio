@@ -2,10 +2,10 @@ import Nav from "./Navigation";
 
 function Header() {
   return (
-    <div>
-      <h1>Robert Coulson</h1>
+    <header className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <h1 className="navbar-brand">Robert Coulson</h1>
       <Nav />
-    </div>
+    </header>
   );
 }
 

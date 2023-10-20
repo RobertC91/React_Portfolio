@@ -1,34 +1,29 @@
-import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom'
-
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Resume from './components/Resume'
 import About from './components/About'
+import Project from './components/Project'
 import Contact from './components/Contact'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
 
 function App() {
   return (
-<Router>
+      <>
+      <main className='fill-page'>
       <Header />
-      <Switch>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/resume">
-          <Resume />
-        </Route>
-        <Route path="/">
-          <About /> {/* Default route */}
-        </Route>
-      </Switch>
-      <Footer />
-    </Router>
+      < Routes>
+        <Route path='/' element={< About/>}/>
+        <Route path='/about' element={< About/>}/>
+        <Route path='/projects' element={< Project/>}/>
+        <Route path='/contact' element={< Contact/>}/>
+        <Route path='/resume' element={< Resume/>}/>
+      </Routes>
+      < Footer/>
+      </main>
+      </>
   )
 }
 
