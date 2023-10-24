@@ -36,17 +36,17 @@ function Projects() {
         <div className="project-list">
           {projects.map((project, index) => (
             <div key={index} className="project-item">
-              <h3>
-                {project.title}
+              <h4>
+                {project.title}:
                 <a
                   className="github-link"
                   href={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  GitHub Repository
+                  Click to View Repository
                 </a>
-              </h3>
+              </h4>
 
               <a
                 href={project.liveDemoLink}

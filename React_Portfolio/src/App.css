@@ -1,11 +1,9 @@
 .fill-page {
-  height: 100vw;
   width: 100vw;
+  flex: 1;
+  overflow-y: auto;
 }
 
-h2 {
-  font-size: 1.8vw;
-}
 
 header h1 {
   margin-left: 2vw;
@@ -17,18 +15,52 @@ a {
   color: white;
 }
 
-.about-content {
-  font-size: 1.4vw;
-}
-
 #projects a {
-  color: black
+  color: black;  
 }
 
 img {
   max-width: 25%;
 }
 
-.github-link {
-  font-size: 1.5vw;
+.information-card {
+  margin-top: 1.5vw;
+}
+
+.information-card p {
+  margin-bottom: 2px;
+}
+
+.resume-link {
+  color: black;
+  font-weight: bold;
+}
+
+.resume-info {
+  margin-top: 2vw;
+}
+
+.resume-info h4 {
+  margin-top: 1.5vw;
+}
+
+.resume {
+  max-width: 42%;
+  margin-left: 2vw;
+}
+
+.contact {
+  margin-left: 2vw;
+}
+
+.form-group {
+  max-width: 50%;
+}
+
+button {
+  margin: 1.5vw;
+}
+
+.footer-icon {
+  
 }

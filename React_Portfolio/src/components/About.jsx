@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="container">
       <section className="mt-4">
-        <h1 className="display-6"> Full Stack Web Developer</h1>
+        <h2> Full Stack Web Developer</h2>
         <section className="about-content">
           <h2>About Me</h2>
           <p>

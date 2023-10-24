@@ -62,11 +62,13 @@ function Contact() {
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name:</label>
           <input
+          className='form-control'
             type="text"
             id="name"
             name="name"
+            placeholder='Enter Your Name'
             value={formData.name}
             onChange={handleInputChange}
           />
@@ -74,11 +76,13 @@ function Contact() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email:</label>
           <input
+          className='form-control'
             type="email"
             id="email"
             name="email"
+            placeholder='Enter Your Email'
             value={formData.email}
             onChange={handleInputChange}
           />
@@ -86,17 +90,19 @@ function Contact() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Message:</label>
           <textarea
+          className='form-control'
             id="message"
             name="message"
+            placeholder='Enter A Message'
             value={formData.message}
             onChange={handleInputChange}
           ></textarea>
           <div className="error">{formErrors.message}</div>
         </div>
 
-        <button type="submit">Submit</button>
+        <button className='btn btn-dark' type="submit">Submit</button>
       </form>
     </section>
   );
