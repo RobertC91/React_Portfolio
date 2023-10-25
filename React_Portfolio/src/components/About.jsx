@@ -10,10 +10,10 @@ function About() {
   return (
     <div className="about-container">
       <section className="mt-4">
-        <h2> Full Stack Web Developer</h2>
+        <h1>About Me</h1>
         <img className="profile-image" src= {photo.photo} alt={photo.title} />
         <section className="about-content">
-          <h4>About Me</h4>
+          <h4>Full Stack Web Developer</h4>
           <p>
             Hello, I'm Robert Coulson, a passionate full-stack web developer
             with a strong foundation in web development and a commitment to

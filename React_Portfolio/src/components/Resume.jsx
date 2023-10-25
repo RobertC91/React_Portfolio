@@ -1,7 +1,7 @@
 function Resume() {
   return (
     <section className="resume">
-      <h2>My Resume</h2>
+      <h1>My Resume</h1>
       <p>You can download my resume by clicking the link below:</p>
       <a
         className="resume-link btn btn-dark"

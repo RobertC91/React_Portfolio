@@ -1,6 +1,7 @@
 html, body, #root {
   height: 100%;
   background-color: #F8F0E3;
+  font-family: 'Cinzel', serif;
 }
 
 #root {
@@ -29,6 +30,7 @@ a {
 
 .profile-image {
   width: 25%;
+  margin-top: 1vw;
 }
 
 .project-container {
@@ -39,11 +41,11 @@ a {
 }
 
 .projects {
-  margin: 2vw;
+  margin: 1vw;
 }
 
 .project-item {
-  margin: 1vw;
+  border-top: 1px solid black;
 }
 
 .project-item h4 {

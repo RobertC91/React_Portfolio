@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 function Nav() {
   
   return (
-    <nav className='nav-link'>
+    <nav className='ms-auto'>
       {/* as="button" */}
           <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
             About Me
