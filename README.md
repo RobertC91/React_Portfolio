@@ -42,7 +42,7 @@ npm run dev
 
 ## ScreenShot
 
-![Alt text](public/images/React_Portfolio.png)
+![Alt text](React_Portfolio/public/images/React_Portfolio.png)
 
 ### License
 
