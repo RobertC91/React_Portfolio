@@ -3,6 +3,7 @@ function Resume() {
     <section className="resume">
       <h1>My Resume</h1>
       <p>You can download my resume by clicking the link below:</p>
+      {/* Bring in resume to open as a pdf for printing or download */}
       <a
         className="resume-link btn btn-dark"
         href="/resume/Robert-Coulson_Resume.pdf"
@@ -11,6 +12,7 @@ function Resume() {
       >
         Download Resume
       </a>
+      {/* On-site resume information */}
       <section className="resume-info">
         <h4>Personal</h4>
         <div className="information-card">

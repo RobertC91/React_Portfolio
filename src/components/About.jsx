@@ -1,5 +1,6 @@
 import Cthulhu from "../assets/Cthulhu.png";
 
+// About component that holds the photo and text for the photo on the About page
 function About() {
   const photo = 
     {

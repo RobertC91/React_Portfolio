@@ -1,3 +1,4 @@
+// Import components for use in App component
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -6,9 +7,11 @@ import About from './components/About'
 import Project from './components/Project'
 import Contact from './components/Contact'
 
+// Import CSS and Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
+// Render the website by pulling components into App component
 function App() {
   return (
       <>

@@ -1,8 +1,10 @@
+// Importing icons for footer
 import { BsGithub } from "react-icons/bs";
 import { BsStackOverflow } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 
 function Footer() {
+  // Render footer with icons, href links, and target blank to open in new tab
   return (
     <div className="footer">
       <footer className="d-flex align-items-center justify-content-center navbar navbar-expand-lg narbar-dark bg-dark">

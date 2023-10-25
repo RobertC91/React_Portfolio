@@ -1,3 +1,4 @@
+// Import Nav component for use in Header component
 import Nav from "./Navigation";
 
 function Header() {

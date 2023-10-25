@@ -1,10 +1,10 @@
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Nav() {
   
   return (
     <nav className='ms-auto'>
-      {/* as="button" */}
+      {/* Link pages for the navbar in the header */}
           <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
             About Me
           </Link>

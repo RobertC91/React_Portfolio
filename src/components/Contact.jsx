@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 function Contact() {
+  // Create state variables for each input field
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -14,6 +15,7 @@ function Contact() {
   });
 
   const handleInputChange = (e) => {
+    // Get the name of the input field, i.e. 'name', 'email', or 'message'
     const { name, value } = e.target;
     setFormData({
       ...formData,
