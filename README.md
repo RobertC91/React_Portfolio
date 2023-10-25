@@ -38,11 +38,11 @@ npm run dev
 
 ## Netlify Deployment
 
-
+https://wonderful-tanuki-7aa568.netlify.app/about
 
 ## ScreenShot
 
-![Alt text](React_Portfolio/public/images/React_Portfolio.png)
+![Alt text](/public/images/React_Portfolio.png)
 
 ### License
 
