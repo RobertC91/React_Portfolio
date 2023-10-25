@@ -1,5 +1,5 @@
 import Pennywise from "../assets/Pennywise Planner.png";
-import Jate from "../assets/Jate challenge.png";
+import Jate from "../assets/JATE challenge.png";
 import Social from "../assets/NoSql_1.png";
 import ECommerce from "../assets/E Commerce.png";
 import StaffStash from "../assets/Staff Stash.png";
