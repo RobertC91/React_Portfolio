@@ -4,7 +4,7 @@ function Resume() {
       <h2>My Resume</h2>
       <p>You can download my resume by clicking the link below:</p>
       <a
-        className="resume-link"
+        className="resume-link btn btn-dark"
         href="/resume/Robert-Coulson_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"

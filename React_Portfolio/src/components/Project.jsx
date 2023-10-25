@@ -1,7 +1,9 @@
-import React from "react";
 import Pennywise from "../assets/Pennywise Planner.png";
-import Jate from "../assets/Jate challenge.png"
-import Social from "../assets/NoSql_1.png"
+import Jate from "../assets/Jate challenge.png";
+import Social from "../assets/NoSql_1.png";
+import ECommerce from "../assets/E Commerce.png";
+import StaffStash from "../assets/Staff Stash.png";
+import TakeNote from "../assets/Take_Note.png";
 
 function Projects() {
   const projects = [
@@ -26,12 +28,33 @@ function Projects() {
       githubLink: "https://github.com/RobertC91/Social-Network-API-Challenge.git",
       liveDemoLink: "https://youtu.be/WKuVHWft8Qc",
       screenshot: Social
-    }
+    },
+    {
+      title: "E-Commerce Backend",
+      description: "This is an E-Commerce database manager that runs using SQL, Express, Sequelize, and JavaScript. It can add, delete, and update product information.",
+      githubLink: "https://github.com/RobertC91/E-Commerce.git",
+      liveDemoLink: "https://youtu.be/93UCtWCAGXw",
+      screenshot: ECommerce
+    },
+    {
+      title: "Staff Stash",
+      description: "This is a server side api that stores employee information using SQL. You can view different employees, roles, and departments in your business by running this in an integrated terminal.",
+      githubLink: "https://github.com/RobertC91/Staff-Stash.git",
+      liveDemoLink: "https://youtu.be/3i1ZXYrA54I",
+      screenshot: StaffStash
+    },
+    {
+      title: "Take Note",
+      description: "This is an app that saves personal notes for you. This app runs with Express.js in the back end and builds api that saves and retrieves your notes that are stored in json format in the database. You can also easily manage your note list by deleting messages from the database from the web page.",
+      githubLink: "https://github.com/RobertC91/Take-Note.git",
+      liveDemoLink: "https://dry-sea-56833-cb76eedf7782.herokuapp.com/",
+      screenshot: TakeNote
+    },
   ];
 
   return (
     <section id="projects" className="projects">
-      <div className="container">
+      <div className="project-container">
         <h2>Projects</h2>
         <div className="project-list">
           {projects.map((project, index) => (
@@ -39,7 +62,7 @@ function Projects() {
               <h4>
                 {project.title}:
                 <a
-                  className="github-link"
+                  className="github-link btn btn-dark"
                   href={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -48,16 +71,16 @@ function Projects() {
                 </a>
               </h4>
 
-              <a
+              <a className="live-demo-link"
                 href={project.liveDemoLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
+              <h5>Click for Live Demo</h5>
                 <img src={project.screenshot} alt={project.title} />
               </a>
-
-              <p>{project.description}</p>
-              <div className="project-links"></div>
+              <h5>Description</h5>
+              <p className="project-description">{project.description}</p>
             </div>
           ))}
         </div>

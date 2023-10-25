@@ -1,7 +1,15 @@
-.fill-page {
-  width: 100vw;
-  flex: 1;
-  overflow-y: auto;
+html, body, #root {
+  height: 100%;
+  background-color: #F8F0E3;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+h3, h4, h5 {
+  color: maroon;
 }
 
 
@@ -15,12 +23,46 @@ a {
   color: white;
 }
 
-#projects a {
-  color: black;  
+.nav-link a:hover {
+  color: maroon;
 }
 
+.profile-image {
+  width: 25%;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1vw;
+}
+
+.projects {
+  margin: 2vw;
+}
+
+.project-item {
+  margin: 1vw;
+}
+
+.project-item h4 {
+  margin-bottom: -2vw;
+}
+
+#projects a {
+  color: rgb(255, 255, 255);  
+}
+
+
 img {
-  max-width: 25%;
+  justify-content: center;
+  max-width: 50%;
+  margin-bottom: 1vw;
+}
+
+.about-container {
+  margin: 2vw;
 }
 
 .information-card {
@@ -29,11 +71,6 @@ img {
 
 .information-card p {
   margin-bottom: 2px;
-}
-
-.resume-link {
-  color: black;
-  font-weight: bold;
 }
 
 .resume-info {
@@ -46,21 +83,80 @@ img {
 
 .resume {
   max-width: 42%;
-  margin-left: 2vw;
+  margin: 2vw;
+}
+
+.resume a {
+  color: white;
+  margin: 0vw;
 }
 
 .contact {
-  margin-left: 2vw;
+  margin: 2vw;
+  min-height: 100vw;
 }
 
 .form-group {
   max-width: 50%;
 }
 
+footer {
+margin-top: auto;
+}
+
 button {
   margin: 1.5vw;
 }
 
-.footer-icon {
-  
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    flex-direction: column;
+  }
+
+  .project-item {
+    margin: 1vw;
+  }
+
+  .project-item h4 {
+    margin-bottom: -2vw;
+  }
+
+  .project-item img {
+    max-width: 100%;
+  }
+
+  .resume {
+    max-width: 100%;
+  }
+
+  .resume-info {
+    margin-top: 2vw;
+  }
+
+  .resume-info h4 {
+    margin-top: 1.5vw;
+  }
+
+  .resume a {
+    color: white;
+    margin: 0vw;
+  }
+
+  .contact {
+    margin: 2vw;
+    min-height: 100vw;
+  }
+
+  .form-group {
+    max-width: 100%;
+  }
+
+  footer {
+    margin-top: auto;
+  }
+
+  button {
+    margin: 1.5vw;
+  }
 }

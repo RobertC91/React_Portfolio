@@ -1,12 +1,19 @@
-import React from "react";
+import Cthulhu from "../assets/Cthulhu.png";
 
 function About() {
+  const photo = 
+    {
+      title: "Robert Coulson",
+      photo: Cthulhu
+    }
+  
   return (
-    <div className="container">
+    <div className="about-container">
       <section className="mt-4">
         <h2> Full Stack Web Developer</h2>
+        <img className="profile-image" src= {photo.photo} alt={photo.title} />
         <section className="about-content">
-          <h2>About Me</h2>
+          <h4>About Me</h4>
           <p>
             Hello, I'm Robert Coulson, a passionate full-stack web developer
             with a strong foundation in web development and a commitment to
@@ -16,7 +23,7 @@ function About() {
             skill set that has enabled me to tackle complex projects and deliver
             results.
           </p>
-          <h2>Education and Training</h2>
+          <h4>Education and Training</h4>
           <p>
             My educational background includes completion of the coding bootcamp
             program at the University of Texas at San Antonio, where I honed my
@@ -24,16 +31,7 @@ function About() {
             equipped me with the knowledge and tools needed to work in the
             ever-evolving web development industry.
           </p>
-          <h2>Professional Experience</h2>
-          <p>
-            I have had the privilege of working on a variety of projects, where
-            I've demonstrated my ability to design, develop, and maintain web
-            applications. From crafting responsive and visually appealing user
-            interfaces to building robust server-side solutions, I thrive in
-            diverse environments and enjoy the challenge of bringing ideas to
-            life through code.
-          </p>
-          <h2>Passion and Motivation</h2>
+          <h4>Passion and Motivation</h4>
           <p>
             I am motivated by my genuine love for problem-solving and my
             dedication to staying up-to-date with the latest trends and
@@ -41,7 +39,7 @@ function About() {
             new challenges and find innovative solutions to create efficient,
             scalable, and maintainable web applications.
           </p>
-          <h2>Collaboration and Communication</h2>
+          <h4>Collaboration and Communication</h4>
           <p>
             In addition to my technical skills, I am an excellent collaborator
             and communicator. I enjoy working in teams, and I understand the
@@ -49,7 +47,7 @@ function About() {
             successful projects. I am a firm believer in the power of teamwork
             and open dialogue.
           </p>
-          <h2>Let's Connect</h2>
+          <h4>Let's Connect</h4>
           <p>
             I am always excited to connect with fellow developers, potential
             collaborators, and anyone interested in the world of web
