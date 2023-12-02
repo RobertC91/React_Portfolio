@@ -6,7 +6,7 @@ function Resume() {
       {/* Bring in resume to open as a pdf for printing or download */}
       <a
         className="resume-link btn btn-dark"
-        href="/resume/Robert-Coulson_Resume.pdf"
+        href="/resume/RobertCoulsonResume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -53,20 +53,6 @@ function Resume() {
           </li>
         </ul>
 
-        <h4>Education</h4>
-        <div className="information-card">
-          <p>High School Diploma</p>
-          <p>John Paul Stevens High School</p>
-          <p>San Antonio, TX</p>
-          <p>Graduated 2010</p>
-        </div>
-        <div className="information-card">
-          <p>Coding Bootcamp Certification</p>
-          <p>University of Texas San Antonio</p>
-          <p>San Antonio, TX</p>
-          <p>Completed November 15, 2023</p>
-        </div>
-
         <h4>Skills</h4>
         <ul>
           <li>Front-end Technologies: HTML, CSS, JavaScript, React</li>
@@ -87,21 +73,23 @@ function Resume() {
           <p>January 2022 - Present</p>
         </div>
         <div className="information-card">
-          <p>Owner Operator (CDL) - Contracted through Schneider National</p>
-          <p>Green Bay, WI</p>
-          <p>2016-2021</p>
+          <p>OTR Driver (CDL) - Schneider National</p>
+          <p>Dallas, TX</p>
+          <p>2012 - 2021</p>
+        </div>
+
+        
+        <h4>Education</h4>
+        <div className="information-card">
+          <p>High School Diploma</p>
+          <p>John Paul Stevens High School</p>
+          <p>San Antonio, TX</p>
         </div>
         <div className="information-card">
-          <p>Company Driver (CDL) - Schneider National</p>
-          <p>Dallas, TX</p>
-          <p>2012 - 2016</p>
+          <p>Coding Bootcamp Certification</p>
+          <p>University of Texas San Antonio</p>
+          <p>San Antonio, TX</p>
         </div>
-
-        <h4>Languages:</h4>
-        <p>-English (fluent)</p>
-
-        <h4>References:</h4>
-        <p>Available Upon Request</p>
       </section>
     </section>
   );

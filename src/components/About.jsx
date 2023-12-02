@@ -1,11 +1,11 @@
-import Cthulhu from "../assets/Cthulhu.png";
+import Robert from "../assets/RobertCoulson.png";
 
 // About component that holds the photo and text for the photo on the About page
 function About() {
   const photo = 
     {
       title: "Robert Coulson",
-      photo: Cthulhu
+      photo: Robert
     }
   
   return (
