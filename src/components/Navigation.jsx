@@ -14,9 +14,6 @@ function Nav() {
           <Link to="/resume" className={location.pathname === '/resume' ? 'active' : ''}>
             Resume
           </Link>
-          <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
-            Contact
-          </Link>
 
   </nav>
   );

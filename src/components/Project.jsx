@@ -5,6 +5,7 @@ import Social from "../assets/NoSql_1.png";
 import ECommerce from "../assets/E Commerce.png";
 import StaffStash from "../assets/Staff Stash.png";
 import TakeNote from "../assets/Take_Note.png";
+import EzShop from "../assets/EZ-Shop.png";
 
 function Projects() {
   // Create project array with objects that hold project information
@@ -57,6 +58,13 @@ function Projects() {
       githubLink: "https://github.com/RobertC91/Take-Note.git",
       liveDemoLink: "https://dry-sea-56833-cb76eedf7782.herokuapp.com/",
       screenshot: TakeNote,
+    },
+    {
+      title: "EZ-Shop",
+      description: "This is an e-commerce website that my team build as our final project in bootcamp. It is a full stack application that uses React.js, Apollo, GraphQL, MongoDB, and Node.js. It is a fully functional e-commerce website that allows users to create an account, add items to their cart, and checkout. It also has a search bar that allows users to search for items by name.",
+      githubLink: "https://github.com/SeanDRowan/EZ-shop.git",
+      liveDemoLink: "https://shop-ez-015c83fa6fdb.herokuapp.com/",
+      screenshot: EzShop,
     },
   ];
 

@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import Resume from './components/Resume'
 import About from './components/About'
 import Project from './components/Project'
-import Contact from './components/Contact'
 
 // Import CSS and Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -21,7 +20,6 @@ function App() {
         <Route path='/' element={< About/>}/>
         <Route path='/about' element={< About/>}/>
         <Route path='/projects' element={< Project/>}/>
-        <Route path='/contact' element={< Contact/>}/>
         <Route path='/resume' element={< Resume/>}/>
       </Routes>
       < Footer/>
